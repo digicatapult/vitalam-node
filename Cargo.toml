@@ -11,20 +11,20 @@ version = "12.1.0"
 # non-substrate dependencies #
 ##############################
 serde = { version = "1.0.217", default-features = false }
-serde_json = { version = "1.0.134", default-features = false }
-clap = { version = "4.5.23", features = ["derive"] }
+serde_json = { version = "1.0.137", default-features = false }
+clap = { version = "4.5.26", features = ["derive"] }
 futures = { version = "0.3.31", features = ["thread-pool"] }
 bs58 = "0.5.1"
-async-trait = "0.1.84"
+async-trait = "0.1.85"
 hex-literal = "0.4.1"
 exitcode = "1.1.2"
 lazy_static = "1.5.0"
 pest = "2.7.15"
 pest_derive = "2.7.15"
-thiserror = "2.0.9"
+thiserror = "2.0.11"
 strum = { version = "0.26.3", default-features = false }
 strum_macros = { version = "0.26.4", default-features = false }
-log = { version = "0.4.22", default-features = false }
+log = { version = "0.4.25", default-features = false }
 
 #################################################################
 # substrate linked dependencies in crates.io that may be pinned #
@@ -56,20 +56,20 @@ pallet-transaction-payment-rpc-runtime-api = { version = "38.0.0", default-featu
 frame-executive = { version = "38.0.0", default-features = false }
 sp-api = { version = "34.0.0", default-features = false }
 sp-block-builder = { version = "34.0.0", default-features = false }
-sp-consensus-babe = { version = "0.40.0", default-features = false }
+sp-consensus-babe = { version = "0.41.0", default-features = false }
 sp-consensus-grandpa = { version = "21.0.0", default-features = false }
-sp-genesis-builder = { version = "0.15.1", default-features = false }
+sp-genesis-builder = { version = "0.16.0", default-features = false }
 sp-inherents = { version = "34.0.0", default-features = false }
 sp-offchain = { version = "34.0.0", default-features = false }
 sp-session = { version = "36.0.0", default-features = false }
 sp-staking = { version = "36.0.0", default-features = false }
-sp-state-machine = { version = "0.43.0", default-features = false }
+sp-state-machine = { version = "0.44.0", default-features = false }
 sp-statement-store = { version = "18.0.0", default-features = false }
 sp-storage = { version = "21.0.0", default-features = false }
 sp-transaction-pool = { version = "34.0.0", default-features = false }
 sp-version = { version = "37.0.0", default-features = false }
 sp-weights = { version = "31.0.0", default-features = false }
-frame-try-runtime = { version = "0.44.0", default-features = false }
+frame-try-runtime = { version = "0.45.0", default-features = false }
 pallet-collective = { version = "38.0.0", default-features = false }
 pallet-membership = { version = "38.0.0", default-features = false }
 pallet-node-authorization = { version = "38.0.0", default-features = false }
@@ -79,29 +79,29 @@ frame-system-rpc-runtime-api = { version = "34.0.0", default-features = false }
 frame-system-benchmarking = { version = "38.0.0", default-features = false }
 
 # node dependencies
-sc-cli = { version = "0.47.0" }
-sc-executor = { version = "0.40.1" }
-sc-service = { version = "0.46.0" }
+sc-cli = { version = "0.49.0" }
+sc-executor = { version = "0.41.0" }
+sc-service = { version = "0.48.0" }
 sc-telemetry = { version = "25.0.0" }
 sc-keystore = { version = "33.0.0" }
-sc-network = { version = "0.45.3" }
+sc-network = { version = "0.47.0" }
 sc-transaction-pool = { version = "37.0.0" }
 sc-transaction-pool-api = { version = "37.0.0" }
 sc-offchain = { version = "40.0.0" }
-sc-consensus-manual-seal = { version = "0.46.0" }
-sc-consensus-babe = { version = "0.45.0" }
-sc-consensus-babe-rpc = { version = "0.45.0" }
-sp-consensus = { version = "0.40.0" }
-sc-consensus = { version = "0.44.0" }
-sc-consensus-grandpa = { version = "0.30.0" }
+sc-consensus-manual-seal = { version = "0.48.0" }
+sc-consensus-babe = { version = "0.47.0" }
+sc-consensus-babe-rpc = { version = "0.47.0" }
+sp-consensus = { version = "0.41.0" }
+sc-consensus = { version = "0.46.0" }
+sc-consensus-grandpa = { version = "0.32.0" }
 sc-client-api = { version = "37.0.0" }
 sp-timestamp = { version = "34.0.0" }
 sp-keyring = { version = "39.0.0" }
-sp-keystore = { version = "0.40.0" }
+sp-keystore = { version = "0.41.0" }
 sc-rpc = { version = "40.0.0" }
-sc-rpc-api = { version = "0.44.0" }
+sc-rpc-api = { version = "0.46.0" }
 sp-blockchain = { version = "37.0.1" }
-sc-basic-authorship = { version = "0.45.0" }
+sc-basic-authorship = { version = "0.47.0" }
 substrate-frame-rpc-system = { version = "39.0.0" }
 frame-benchmarking-cli = { version = "43.0.0" }
 
